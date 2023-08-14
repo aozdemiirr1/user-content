@@ -1,0 +1,102 @@
+<!doctype html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="./css/styles.css" rel="stylesheet">
+  <link rel="stylesheet" href="./pro.js">
+  <!-- Google Font -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Nunito+Sans:opsz@6..12&family=Open+Sans:wght@300&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />  
+</head>
+<body>
+
+    <div class="container w-4/5 lg:w-128 bg-white border rounded-2xl p-5 mt-5 mb-5">
+        <!-- Header -->
+        <div class="flex justify-between font-nunito">
+            <!-- User -->
+            <div class="flex flex-col justify-start">
+                <h1 class="font-bold text-black">Hi Abdullah Ö.</h1>
+                <p class="text-sm font-bold text-pro-grey">10 Task pending</p>
+            </div>
+            <img class="w-12 h-12" src="./images/profil-resmi.png">    
+        </div>
+
+        <!-- Search -->
+        <div class="flex items-center space-x-6">
+            <div class="flex items-center mt-10 bg-pro-opengrey w-full h-10 rounded-2xl pl-3">
+                <i class="fa-solid fa-magnifying-glass text-xs"></i>
+                <p class="text-xs ml-2">Search...</p>
+            </div>
+            <i class="fa-solid fa-filter mt-10 border border-black rounded-full p-3 text-white bg-black"></i>
+        </div>
+        
+        <!-- Categories -->
+        <div class="mt-10">
+            <h3 class="font-bold text-pro-grey">Categories</h3>
+            <div class="grid grid-cols-6 space-x-3 mt-5">
+                <div class="bg-pro-melon rounded-2xl p-5 col-span-3 ">
+                    <p class="text-black font-bold">Mobile App</p>
+                    <p class="text-black text-sm">10 Task</p>
+                </div>
+                <div class="bg-pro-red rounded-2xl p-5 col-span-3">
+                    <p class="text-white font-bold">Web Site</p>
+                    <p class="text-white text-sm">05 Task</p>
+                </div>
+            </div>
+        </div>
+
+        <!-- Ongoing Tasks -->
+        <div class="mt-10">
+            <h3 class="font-bold text-pro-grey">Ongoing task</h3>
+            <div class="grid grid-cols-6 mt-5">
+                <div class="bg-pro-melon p-5 rounded-2xl col-span-6">
+                    <div class="flex justify-between">
+                        <div class="flex flex-col">
+                            <p class="text-black font-bold">Wallet App Design</p>
+                            <p class="text-pro-grey text-sm">Team members</p>
+                            <div class="flex space-x-2 mt-3">
+                                <i class="fa-solid fa-kiwi-bird bg-black text-pro-melon p-2"></i>
+                                <i class="fa-solid fa-kiwi-bird bg-black text-pro-melon p-2"></i>
+                                <i class="fa-solid fa-kiwi-bird bg-black text-pro-melon p-2"></i>
+                            </div>
+                            <div class="flex items-center space-x-2 mt-3">
+                                <i class="fa-solid fa-clock text-pro-red"></i>
+                                <p class="text-pro-grey text-sm">2:30 PM -</p>
+                                <p class="text-pro-grey text-sm">6:30 PM</p>
+                            </div>
+                        </div>
+                        <div class="bg-black rounded-full text-white h-6 w-12">
+                            <p class="flex items-center justify-center text-sm">6d</p>
+                        </div>    
+                    </div>
+                </div>
+                <div class="bg-pro-red p-5 rounded-2xl col-span-6 mt-2">
+                    <div class="flex justify-between">
+                        <div class="flex flex-col">
+                            <p class="text-white font-bold">Dashboard & Mobile App</p>
+                            <p class="text-white text-sm">Team members</p>
+                            <div class="flex space-x-2 mt-3">
+                                <i class="fa-solid fa-kiwi-bird bg-white text-pro-red p-2"></i>
+                                <i class="fa-solid fa-kiwi-bird bg-white text-pro-red p-2"></i>
+                                <i class="fa-solid fa-kiwi-bird bg-white text-pro-red p-2"></i>
+                            </div>
+                            <div class="flex items-center space-x-2 mt-3">
+                                <i class="fa-solid fa-clock text-pro-white"></i>
+                                <p class="text-white text-sm">2:30 PM -</p>
+                                <p class="text-white text-sm">6:30 PM</p>
+                            </div>
+                        </div>
+                        <div class="bg-black rounded-full text-white h-6 w-12">
+                            <p class="flex items-center justify-center text-sm">6d</p>
+                        </div>    
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+   
+</body>
+</html>
